@@ -17,15 +17,11 @@ def key_for_min_value(name_hash)
     if value == smallest_value
       name = key
     end
-    
+
     return name
   end
 
-  if smallest_value == nil
-    nil
-  else
-    puts name
-  end
+  smallest_value == nil ? nil : puts name
 end
 
 
